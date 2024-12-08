@@ -23,14 +23,14 @@
         * CURDATE() – Return the current date.
         * NOW() – Return the current date and time.
         * DATEDIFF(date1, date2) – Return the number of days between date1 and date2.
-        * TIMESTAMPDIFF(unit, date1, date2) – Return the difference between two dates in the specified unit (YEAR, MONTH, etc.).
-d. Aggregate Functions
-Work on multiple rows and return a single result.
+        * TIMESTAMPDIFF(unit, date1, date2) – Return the difference between two dates in the specified unit.
+   
+   d. Aggregate Function-Work on multiple rows and return a single result.
 
-SUM(expr) – Calculate the sum.
-AVG(expr) – Calculate the average.
-MAX(expr) / MIN(expr) – Return the maximum/minimum value.
-COUNT(expr) – Count the number of rows.
+       * SUM(expr) – Calculate the sum.
+       * AVG(expr) – Calculate the average.
+       * MAX(expr) / MIN(expr) – Return the maximum/minimum value.
+       * COUNT(expr) – Count the number of rows.
 
 **2. User-Defined Functions**
 
