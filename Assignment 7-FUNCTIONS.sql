@@ -40,5 +40,4 @@ select Country_name,length(Country_name) as name_length from Country;
 select Country_name,substr(Country_name,1,3) as First_Three_Character from Country;
 
 #7.Convert all country names to uppercase and lowercase in the Country table.
-select UCASE(Country_name) as IN_Uppercase from Country;
-select LCASE(Country_name) as IN_Lowercase from Country;
+select UCASE(Country_name) as IN_Uppercase,LCASE(Country_name) as IN_Lowercase from Country;
